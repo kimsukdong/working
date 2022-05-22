@@ -16,6 +16,10 @@ public class T1 {
 		v.a.x=10;
 		v.a.y=30;
 		System.out.println(v.print());
+		
+		Vol2 v2 = new Vol2(10,20);
+		v2.z =30;
+		System.out.println(v.print());
 	}
 
 }
