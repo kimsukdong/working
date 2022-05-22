@@ -24,16 +24,22 @@ public class Test8 {
 		
 		System.out.println(b1[0]);
 		System.out.println(b1[0].avg());
+		System.out.println(b1[0].record());
 		System.out.println();
 		
 		System.out.println(b1[1]);
 		System.out.println(b1[1].avg());
+		System.out.println(b1[1].record());
 				
 	}
 }
 
 class Base2 extends Base{
 	int homeRun, run, fourBall;
+	
+	String record() {
+		return homeRun+"»®∑± , "+run+ "µÊ¡° ";
+	}
 		
 	/*
 	 * 	public String toString() {		
